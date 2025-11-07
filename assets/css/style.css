@@ -1,18 +1,27 @@
-/* Sfondo pastello chiaro */
+/* Sfondo pastello delicato */
 body {
-  background-color: #fff0f5; /* lilla chiaro */
+  background-color: #fffaf0; /* crema chiaro */
   color: #333333;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   padding: 20px;
 }
 
-/* Titoli con colori delicati */
+/* Header */
+header {
+  text-align: center;
+  background-color: #ffe4e1; /* rosa pastello */
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Titoli */
 h1, h2, h3 {
   color: #ffb6c1; /* rosa chiaro */
 }
 
-/* Link color pastello */
+/* Link */
 a {
   color: #87cefa; /* azzurro chiaro */
   text-decoration: none;
@@ -22,11 +31,19 @@ a:hover {
   color: #ffa07a; /* pesca chiaro */
 }
 
-/* Card o blocchi articoli */
+/* Card articoli */
 article {
   background-color: #fdf5e6; /* beige chiaro */
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666666;
+  margin-top: 20px;
 }
