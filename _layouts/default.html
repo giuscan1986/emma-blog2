@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <h1 class="site-title">{{ site.title }}</h1>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/chi-sono.html' | relative_url }}">Chi sono</a>
+        <a href="{{ '/contatti.html' | relative_url }}">Contatti</a>
+      </nav>
+      <img src="{{ '/assets/img/emma.jpg' | relative_url }}" alt="Emma" style="border-radius:50%;width:120px;height:120px;border:3px solid white;margin-top:15px;">
+    </header>
+
+    <main class="wrapper">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>Creato con 💕 da Emma — {{ site.title }}</p>
+    </footer>
+  </body>
+</html>

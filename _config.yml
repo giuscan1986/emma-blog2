@@ -1,0 +1,8 @@
+title: "Emma’s Blog"
+description: "Pensieri e ispirazioni di Emma 💕"
+baseurl: ""
+url: "https://giuscan1986.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+
