@@ -5,4 +5,6 @@ url: "https://giuscan1986.github.io"
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+  style: compressed
 
